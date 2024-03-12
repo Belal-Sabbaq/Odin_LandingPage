@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Cinzel", serif;
+    color:#fff;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxedContainer{
+    width: 80%;
+}
+.logo > img{
+    max-height: 100%;
+}
+strong {
+    font-weight: 900;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+.menu > ul{
+    display: flex;
+    gap: 20px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.WebsiteInfo{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.red-bg{
+    display: flex;
+    justify-content: center;
+    background-color: #800000;
+    width: 100%;
+    padding: 50px;
+}
+.black-bg{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    width: 100%;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.elements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 50vh;
+}
+.boxedContainer > h1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heorHead > button{
+    background-color: #800000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.heorHead > button:hover{
+    border-radius: 10%;
+    background-color: #fff;
+    color: #800000;
+}
+.card  > p{
+    width: 90%;
+    text-align: center;
+    height: 30%;
+    font-weight: 700;
+}
+.card{
+    flex-basis: 30%;   
+    max-height: 20%;
+}
+.card > img{
+    width: 100%;
+    height: 200px;
+    border-radius: 5%;
+}
+.qoute{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.qoute > p{
+    font-style: italic;
+}
+.cta{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    border-radius: 10%;
+}
+.author{
+    margin-top: 70px;
+}
+.cta-text{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    width: max-content;
+}
+.cta-text > p{
+    align-self: center;
+}
+
+ button{
+    background-color: #800000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    border-radius: 10%;
+    background-color: #fff;
+    color: #800000;
+}
+.heroCTA{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.boxedContainer > .black-bg{
+    border-radius: 3%;
+}
+footer{
+    height: 5vh;
+}
+footer > p{
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+}
